@@ -1,6 +1,6 @@
 # Serexa Dashboard
 
-Welcome to the Serexa Dashboard project. This documentation provides information on how to set up and use the application.
+Welcome to the Serexa  User Dashboard project. This documentation provides information on how to set up and use the application.
 
 ## 6. Start Backend Server
 
