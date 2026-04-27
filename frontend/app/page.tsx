@@ -80,7 +80,11 @@ export default function Home() {
            </div>
            <div className="flex items-center gap-4">
               {stats?.currentBranch && (
-                <Badge className="hidden md:flex">
+                <Badge 
+                  className="hidden md:flex"
+                  ahead={stats.gitStats?.ahead}
+                  behind={stats.gitStats?.behind}
+                >
                   {stats.currentBranch}
                 </Badge>
               )}
